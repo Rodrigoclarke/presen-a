@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #062c3daf;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.container:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+    position: relative;
+}
+
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-pic img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 2em;
+    margin: 10px 0;
+    transition: color 0.3s ease;
+}
+
+h1:hover {
+    color: #000000;
+}
+
+.contact-buttons a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background: #006319;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.contact-buttons a:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #003f88;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+h2:hover {
+    color: #0056b3;
+}
+
+h3 {
+    color: #333;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.6;
+    transition: color 0.3s ease;
+}
+
+p:hover {
+    color: #666;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: url('bullet.png') no-repeat left center;
+    background-size: 20px 20px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #f0f0f0;
+    transform: translateX(5px);
+}
